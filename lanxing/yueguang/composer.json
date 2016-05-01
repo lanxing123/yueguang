@@ -1,0 +1,23 @@
+{
+    "name": "lanxing/yueguang",
+    "description": "",
+    "authors": [
+        {
+            "name": "mrhuang",
+            "email": "2249494390@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+      
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Lanxing\\Yueguang\\": "src/Lanxing/Yueguang"
+        }
+    },
+    "minimum-stability": "stable"
+}
